@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth !important;
+   }
+
+
+[data-slot="content"] {
+    min-width: 125px !important;
+}
+
