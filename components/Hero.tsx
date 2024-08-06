@@ -12,7 +12,7 @@ export default function Hero(){
                 <FaGithub size={28} />
                 <SiLinkedin size={28} />
             </div> */}
-            <Link href="/Hariom.pdf" target="_blank" download={true}> My Resume. </Link>
+            <Link href="/Hariom.pdf" target="_blank" download={true} className="text-[#2563eb] font-medium">My Resume.</Link>
         </section>
     )
 }

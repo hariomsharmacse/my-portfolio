@@ -5,7 +5,7 @@ export default function Downarrow () {
     return (
         <>
         <Link href="#skills" scroll={true}>
-        <div className='sm:flex justify-center items-center text-3xl cursor-pointer hidden'><BsChevronDown /></div></Link>
+        <div className='sm:flex justify-center sm:mt-[-3rem] items-center text-3xl cursor-pointer hidden'><BsChevronDown /></div></Link>
         </>
     )
 }
