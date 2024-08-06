@@ -34,7 +34,7 @@ const projects = [
   },
   {
     title: "Palindrome-Checker",
-    img: "/palidromechecker.PNG",
+    img: "/palidromechecker.png",
     link: "https://hariomsharmacse.github.io/Palidrome-Checker/",
     github: 'https://github.com/hariomsharmacse/Palidrome-Checker'
   },
