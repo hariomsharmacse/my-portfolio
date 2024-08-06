@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { SiLinkedin } from "react-icons/si";
+import Link from "next/link";
 
 export default function Hero(){
     return(
@@ -11,6 +12,7 @@ export default function Hero(){
                 <FaGithub size={28} />
                 <SiLinkedin size={28} />
             </div> */}
+            <Link href="/Hariom.pdf" target="_blank" download={true}> My Resume. </Link>
         </section>
     )
 }
