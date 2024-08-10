@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Tenzi",
     img: "/tanzi.png",
-    link: "https://hariomsharmacse.github.io/Tenzies-Game/",
+    link: "https://hariomsharmacse.github.io/Tenzi-Game/",
     github: 'https://github.com/hariomsharmacse/Tenzies-Game'
   },
   {
