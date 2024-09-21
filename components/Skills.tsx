@@ -20,6 +20,8 @@ import { GrDocumentWord } from "react-icons/gr";
 import { GrDocumentExcel } from "react-icons/gr";
 import { TbWorldSearch } from "react-icons/tb";
 import { SiMicrosoftpowerpoint } from "react-icons/si";
+import { TbBrandOffice } from "react-icons/tb";
+import { FaDatabase } from "react-icons/fa";
 
 import { Button } from "@nextui-org/react";
 import { BsChevronDown } from "react-icons/bs";
@@ -56,60 +58,48 @@ export default function Skills(){
         },
         {
             id: 5, 
-            skillName: 'Next.js',
-            skillIcon: SiNextdotjs,
-            category: 'frontend'
-        },
-        {
-            id: 6, 
             skillName: 'Typescript',
             skillIcon: SiTypescript,
             category: 'backend'
         },
         {
-            id: 7, 
+            id: 6, 
             skillName: 'Tailwind',
             skillIcon: SiTailwindcss,
             category: 'frontend'
         },
         {
-            id: 8, 
+            id: 7, 
             skillName: 'Git & Github',
             skillIcon: FaGitAlt,
             category: 'devops'
         },
         {
-            id: 9, 
+            id: 8, 
             skillName: 'Redux',
             skillIcon: SiRedux,
             category: 'frontend'
         },
         {
-            id: 10, 
+            id: 9, 
             skillName: 'Linux',
             skillIcon: FaLinux,
             category: 'backend'
         },
         {
-            id: 11, 
-            skillName: 'MS Word',
-            skillIcon: GrDocumentWord,
+            id: 10, 
+            skillName: 'MS Office',
+            skillIcon: TbBrandOffice,
             category: 'backend'
         },
         {
-            id: 12, 
-            skillName: 'MS Excel',
-            skillIcon: GrDocumentExcel,
+            id: 11, 
+            skillName: 'Data Processing',
+            skillIcon: FaDatabase,
             category: 'backend'
         },
         {
             id: 13, 
-            skillName: 'MS PowerPoint',
-            skillIcon: SiMicrosoftpowerpoint,
-            category: 'backend'
-        },
-        {
-            id: 14, 
             skillName: 'Web Research',
             skillIcon: TbWorldSearch,
             category: 'research'
