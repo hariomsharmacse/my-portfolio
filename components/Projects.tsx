@@ -9,6 +9,12 @@ import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 const projects = [
   {
+    title: "TodoList Application",
+    img: "/todolist.png",
+    link: "https://todo-list-react-tailwind-one.vercel.app/",
+    github: 'https://github.com/hariomsharmacse/Todo-List-React-Tailwind'
+  },
+  {
     title: "Tenzi",
     img: "/tanzi.png",
     link: "https://hariomsharmacse.github.io/Tenzi-Game/",
