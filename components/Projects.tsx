@@ -75,6 +75,12 @@ const projects = [
     github: "https://github.com/hariomsharmacse/Age-Calculator"
   },
   {
+    title: "Currency Converter",
+    img: "/currencyConverter.png",
+    link: "https://hariomsharmacse.github.io/Currency-Converter/",
+    github: "https://github.com/hariomsharmacse/Currency-Converter.git"
+  },
+  {
     title: "Gredient Color Generator",
     img: "/color.png",
     link: "https://hariomsharmacse.github.io/Gradient-Color-Generator/",
@@ -101,7 +107,7 @@ export default function Projects() {
               width={1920}
               height={1080}
               alt={item.title}
-              className="w-full object-cover aspect-video sm:grayscale sm:hover:grayscale-0 transition hover:scale-105 "
+              className="w-full object-cover aspect-video sm:grayscale sm:hover:grayscale-0 transition hover:scale-105  "
               src={item.img}
             />
           </CardBody>
