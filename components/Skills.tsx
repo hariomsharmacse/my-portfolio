@@ -58,48 +58,66 @@ export default function Skills(){
         },
         {
             id: 5, 
+            skillName: 'Node.js',
+            skillIcon: SiNodedotjs,
+            category: 'backend'
+        },
+        {
+            id: 6, 
+            skillName: 'Express.js',
+            skillIcon: SiExpress,
+            category: 'backend'
+        },
+        {
+            id: 7, 
+            skillName: 'MonogDB',
+            skillIcon: SiMongodb,
+            category: 'backend'
+        },
+        {
+            id: 8, 
             skillName: 'Typescript',
             skillIcon: SiTypescript,
             category: 'backend'
         },
         {
-            id: 6, 
+            id: 9, 
             skillName: 'Tailwind',
             skillIcon: SiTailwindcss,
             category: 'frontend'
         },
         {
-            id: 7, 
+            id: 10, 
             skillName: 'Git & Github',
             skillIcon: FaGitAlt,
             category: 'devops'
         },
         {
-            id: 8, 
+            id: 11, 
             skillName: 'Redux',
             skillIcon: SiRedux,
             category: 'frontend'
         },
         {
-            id: 9, 
+            id: 12, 
             skillName: 'Linux',
             skillIcon: FaLinux,
             category: 'backend'
         },
         {
-            id: 10, 
+            id: 13, 
             skillName: 'MS Office',
             skillIcon: TbBrandOffice,
             category: 'backend'
         },
         {
-            id: 11, 
+            id: 14, 
             skillName: 'Data Processing',
             skillIcon: FaDatabase,
             category: 'backend'
         },
         {
-            id: 13, 
+            id: 15, 
             skillName: 'Web Research',
             skillIcon: TbWorldSearch,
             category: 'research'
