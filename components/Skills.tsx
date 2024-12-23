@@ -5,6 +5,7 @@ import { SiReact } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
@@ -88,36 +89,42 @@ export default function Skills(){
         },
         {
             id: 10, 
+            skillName: 'Bootstrap',
+            skillIcon: FaBootstrap,
+            category: 'frontend'
+        },
+        {
+            id: 11, 
             skillName: 'Git & Github',
             skillIcon: FaGitAlt,
             category: 'devops'
         },
         {
-            id: 11, 
+            id: 12, 
             skillName: 'Redux',
             skillIcon: SiRedux,
             category: 'frontend'
         },
         {
-            id: 12, 
+            id: 13, 
             skillName: 'Linux',
             skillIcon: FaLinux,
             category: 'backend'
         },
         {
-            id: 13, 
+            id: 14, 
             skillName: 'MS Office',
             skillIcon: TbBrandOffice,
             category: 'backend'
         },
         {
-            id: 14, 
+            id: 15, 
             skillName: 'Data Processing',
             skillIcon: FaDatabase,
             category: 'backend'
         },
         {
-            id: 15, 
+            id: 16, 
             skillName: 'Web Research',
             skillIcon: TbWorldSearch,
             category: 'research'
