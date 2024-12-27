@@ -24,6 +24,11 @@ const projects = [
     link: "https://drive.google.com/file/d/1J1UYR1A9P5-L1OOPVlhfycARovYWDNPI/view?usp=sharing"
   },
   {
+    title: "Cutshort skill certificate - HTML/CSS",
+    img: "/cutshortSkill.jpg",
+    link: "https://cutshort.io/certificate/108778"
+  },
+  {
     title: "Certificate of HTML - Great Learning",
     img: "/htmlGreat.jpg",
     link: "https://www.mygreatlearning.com/certificate/GAMFGIAR"
@@ -87,46 +92,46 @@ const projects = [
 
 
 export default function Certifications() {
-
-
   return (
-    <section className="mb-20 md:mb-40" >
-        <h2 className="text-3xl text-center mb-4" >My Certificates</h2>
-        {/* <p className="text-center mb-4" >Some of the projects are from work and some are on my own time.</p> */}
-        <div className="gap-2 sm:gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3" >
+    <section className="mb-20 md:mb-40">
+      <h2 className="text-3xl text-center mb-4 text-gray-800">
+        My Certifications
+      </h2>
+      <div className="gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-6">
+        {projects.map((item, index) => (
+          <Card
+            key={index}
+            className="relative overflow-hidden bg-gradient-to-tr from-gray-100 to-white shadow-lg rounded-3xl transition transform hover:scale-105"
+          >
+            {/* Custom Shape Design */}
+            <div className="absolute -top-10 -right-10 w-32 h-32 bg-blue-200 rounded-full opacity-30"></div>
+            <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-blue-300 rounded-full opacity-20"></div>
 
-      {projects.map((item, index) => (
-          <Card shadow="lg" key={index} isPressable={false} >
-          <CardBody className="overflow-visible p-0">
-            <Image
-            //   shadow="sm"
-            //   radius="lg"
-              width={1920}
-              height={1080}
-              alt={item.title}
-              className="w-full object-cover aspect-video sm:grayscale sm:hover:grayscale-0 transition hover:scale-105"
-              src={item.img}
-            />
-          </CardBody>
-          <CardFooter className="text-small flex-col gap-1 items-start">
-            <b>{item.title}</b>
-            <div className="flex gap-6 items-center" >
-              <Link underline="hover" href={item.link} target="_blank" className="text-blue-500 dark:text-blue-500" >
-                <FaExternalLinkSquareAlt className="mr-1" />
+            {/* Card Content */}
+            <CardBody className="relative overflow-hidden p-0">
+              <Image
+                width={1920}
+                height={1080}
+                alt={item.title}
+                className="w-full h-40 object-cover rounded-t-3xl transition hover:brightness-90"
+                src={item.img}
+              />
+            </CardBody>
+            <CardFooter className="relative p-4 flex flex-col items-start bg-gray-50 rounded-b-3xl">
+              <b className=" text-gray-700 mb-2">{item.title}</b>
+              <Link
+                underline="hover"
+                href={item.link}
+                target="_blank"
+                className="flex items-center text-blue-600 hover:text-blue-800"
+              >
+                <FaExternalLinkSquareAlt className="mr-2 text-lg" />
                 View Certificate
               </Link>
-              {/* {
-                item.github &&
-                <Link underline="hover" href={item?.github} target="_blank" className="text-blue-500" >
-                <FaGithub className="mr-1" />
-                View code
-              </Link>
-              } */}
-            </div>
-          </CardFooter>
-        </Card>
-      ))}
-            </div>
+            </CardFooter>
+          </Card>
+        ))}
+      </div>
     </section>
   );
 }

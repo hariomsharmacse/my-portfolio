@@ -137,10 +137,10 @@ export default function Skills(){
     return(
         <section className="mt-9 mb-20 md:mb-40" id="skills">
             <h2 className="text-3xl mb-4 text-center" >My Skills</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-2 sm:gap-4 " >
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-2 sm:gap-4" >
             {
                 skills.map(skill => (
-                    <Button key={skill.id} variant="flat" className=" cursor-default px-6 py-16  rounded-lg text-center flex flex-col justify-center items-center gap-4" >
+                    <Button key={skill.id} variant="flat" className=" cursor-default px-6 py-16  rounded-2xl text-center flex flex-col justify-center items-center gap-4 hover:scale-105 transition-transform duration-300 hover:text-[#2563eb]" >
                         <skill.skillIcon className="flex-none" size="32" />
                         <p className="text-xl" >{skill.skillName}</p>
                     </Button>
