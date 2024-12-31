@@ -15,6 +15,12 @@ const projects = [
     github: 'https://github.com/hariomsharmacse/Todo-List-React-Tailwind'
   },
   {
+    title: "Pokémon Finder",
+    img: "/pokemon.png",
+    link: "https://pokemon-cards-amber.vercel.app/",
+    github: 'https://github.com/hariomsharmacse/Pokemon-Cards'
+  },
+  {
     title: "Tenzi",
     img: "/tanzi.png",
     link: "https://hariomsharmacse.github.io/Tenzi-Game/",

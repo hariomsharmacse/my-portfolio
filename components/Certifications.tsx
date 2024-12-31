@@ -7,7 +7,7 @@ import { RxExternalLink } from "react-icons/rx";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 
-const projects = [
+const certifications = [
   {
     title: "Certificate of HTML - KG Coding",
     img: "/HTML-certificate.png",
@@ -98,7 +98,7 @@ export default function Certifications() {
         My Certifications
       </h2>
       <div className="gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-6">
-        {projects.map((item, index) => (
+        {certifications.map((item, index) => (
           <Card
             key={index}
             className="relative overflow-hidden bg-gradient-to-tr from-gray-100 to-white shadow-lg rounded-3xl transition transform hover:scale-105"
