@@ -94,7 +94,7 @@ const certifications = [
 export default function Certifications() {
   return (
     <section className="mb-20 md:mb-40">
-      <h2 className="text-3xl text-center mb-4 text-gray-800">
+      <h2 className="text-3xl text-center mb-6 text-gray-800">
         My Certifications
       </h2>
       <div className="gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-6">

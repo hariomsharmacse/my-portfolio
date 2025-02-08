@@ -8,6 +8,7 @@ import Projects from '@/components/Projects'
 import AboutMe from '@/components/AboutMe'
 import Downarrow from '@/components/Downarrow'
 import Certifications from '@/components/Certifications'
+import Experience from '@/components/Experience'
 
 
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <Certifications />
+        <Experience />
         <AboutMe />
         <ContactMe />
       </div>
