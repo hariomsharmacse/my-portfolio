@@ -61,7 +61,7 @@ export default function Experience() {
       <h2 className="text-3xl text-center mb-6 text-gray-800 dark:text-white">
         My Experience
       </h2>
-      <section className="py-10 dark:bg-gray-900">
+      <section className="py-10">
         <div className="container mx-auto grid lg:grid-cols-2 gap-10">
           {experiences.map((exp, index) => (
             <div
