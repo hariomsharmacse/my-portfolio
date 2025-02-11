@@ -22,7 +22,7 @@ const experiences: Experience[] = [
   {
     role: "Web Research Analyst",
     company: "Damco Group",
-    duration: "Jan 2021 - Feb 2024",
+    duration: "Jan 2021 - Feb 2025",
     shortDescription: "Conducted in-depth research to extract and validate high-quality data.",
     details: [
       "Performed extensive web research to extract and validate crucial business data.",
