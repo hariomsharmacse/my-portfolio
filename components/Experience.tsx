@@ -8,21 +8,21 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    role: "Technical Head & CSR Coordinator",
+    role: "CSR & Tech Operations Lead",
     company: "Gau Seva Dham Hospital & Research Centre",
     duration: "Feb 2025 - Present",
-    shortDescription: "Managing technical infrastructure and CSR initiatives for the hospital.",
+    shortDescription: "Overseeing technical operations and driving CSR initiatives to support hospital growth.",
     details: [
       "Overseeing all technical operations, including troubleshooting hardware & software issues.",
       "Coordinating CSR activities to support animal welfare and hospital outreach programs.",
       "Developing digital strategies to enhance the hospital's online presence.",
-      "Optimizing IT infrastructure to improve workflow efficiency.",
+      "Improving systems and workflows for maximum efficiency.",
     ],
   },
   {
     role: "Web Research Analyst",
     company: "Damco Group",
-    duration: "Jan 2021 - Feb 2024",
+    duration: "Jan 2021 - Feb 2025",
     shortDescription: "Conducted in-depth research to extract and validate high-quality data.",
     details: [
       "Performed extensive web research to extract and validate crucial business data.",
@@ -45,7 +45,7 @@ const experiences: Experience[] = [
   {
     role: "MERN Stack Developer (Learning)",
     company: "Self-Learning",
-    duration: "Feb 2024 - Present",
+    duration: "2024 - Present",
     shortDescription: "Developing full-stack applications using modern web technologies.",
     details: [
       "Building interactive UI components with React and Tailwind CSS.",

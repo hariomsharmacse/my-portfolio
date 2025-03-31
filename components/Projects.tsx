@@ -9,6 +9,12 @@ import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 const projects = [
   {
+    title: "GSD Organics E-Commerce Website.",
+    img: "/gsdorganics.png",
+    link: "https://gsd-organics.vercel.app/",
+    github: 'https://github.com/hariomsharmacse/gsd-organics'
+  },
+  {
     title: "TodoList Application",
     img: "/todolist.png",
     link: "https://todo-list-react-tailwind-one.vercel.app/",
