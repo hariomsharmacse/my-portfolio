@@ -8,9 +8,9 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    role: "CSR & Tech Operations Lead",
+    role: "Web Developer Intern, CSR & Tech Operations Lead",
     company: "Gau Seva Dham Hospital & Research Centre",
-    duration: "Feb 2024 - Present",
+    duration: "Feb 2025 - Present",
     shortDescription: "Overseeing technical operations and driving CSR initiatives to support hospital growth.",
     details: [
       "Overseeing all technical operations, including troubleshooting hardware & software issues.",
