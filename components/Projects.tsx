@@ -11,7 +11,7 @@ const projects = [
   {
     title: "GSD Organics E-Commerce Website.",
     img: "/gsdorganics.png",
-    link: "https://gsdorganic-frontend.vercel.app/",
+    link: "https://gsd-organics-frontend.vercel.app/",
     github: 'https://github.com/hariomsharmacse/gsdorganic_fullstack'
   },
   {
